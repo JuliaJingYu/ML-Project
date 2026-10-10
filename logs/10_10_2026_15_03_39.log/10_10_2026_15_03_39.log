@@ -1,0 +1,5 @@
+[2026-10-10 15:03:39,664] 24 ERROR - Error occured in python script name [/Users/julia/Desktop/Master/Udemy/mlproject/src/exception.py] line number [21] error message [division by zero]
+Traceback (most recent call last):
+  File "/Users/julia/Desktop/Master/Udemy/mlproject/src/exception.py", line 21, in <module>
+    a = 1 / 0
+ZeroDivisionError: division by zero
