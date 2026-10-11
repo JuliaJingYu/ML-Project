@@ -1,0 +1,11 @@
+prefix=/Users/julia/Desktop/Master/Udemy/mlproject/venv312
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/julia/Desktop/Master/Udemy/mlproject/venv312/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

@@ -1,0 +1,53 @@
+{
+  "name": "libcxx",
+  "version": "19.1.7",
+  "build": "haebbb44_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "subdir": "osx-64",
+  "fn": "libcxx-19.1.7-haebbb44_3.conda",
+  "md5": "8a120c6c6b14e22156e66d72da61f59e",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/libcxx-19.1.7-haebbb44_3.conda",
+  "sha256": "d4937ea687b9a81d425034979a2da813b85aa5740ed13d15919851b4c3657d9f",
+  "depends": [
+    "__osx >=10.15"
+  ],
+  "constrains": [
+    "llvm-openmp 19.1.7",
+    "clang 19.1.7",
+    "llvm-tools 19.1.7",
+    "llvm 19.1.7"
+  ],
+  "license": "Apache-2.0 WITH LLVM-exception",
+  "timestamp": 1755029133000,
+  "size": 339545,
+  "requested_spec": "None",
+  "package_tarball_full_path": "/opt/miniconda3/pkgs/libcxx-19.1.7-haebbb44_3.conda",
+  "extracted_package_dir": "/opt/miniconda3/pkgs/libcxx-19.1.7-haebbb44_3",
+  "files": [
+    "lib/libc++.1.0.dylib",
+    "lib/libc++.1.dylib"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "lib/libc++.1.0.dylib",
+        "path_type": "hardlink",
+        "sha256": "040bc3f548c1532baaad482031ef81242ad5bb4028c218f880edcd213455714e",
+        "size_in_bytes": 1063904,
+        "sha256_in_prefix": "040bc3f548c1532baaad482031ef81242ad5bb4028c218f880edcd213455714e"
+      },
+      {
+        "_path": "lib/libc++.1.dylib",
+        "path_type": "softlink",
+        "sha256": "040bc3f548c1532baaad482031ef81242ad5bb4028c218f880edcd213455714e",
+        "size_in_bytes": 1063904
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/miniconda3/pkgs/libcxx-19.1.7-haebbb44_3",
+    "type": 1
+  }
+}
