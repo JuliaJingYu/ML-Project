@@ -1,0 +1,26 @@
+[2026-10-12 18:26:15,483] 27 INFO - Entered the data ingestion method or component
+[2026-10-12 18:26:15,486] 30 INFO - Read the dataset as dataframe
+[2026-10-12 18:26:15,491] 35 INFO - Train test split initiated
+[2026-10-12 18:26:15,498] 43 INFO - Ingestion of the data is completed
+[2026-10-12 18:26:15,501] 71 INFO - Read train and test data completed
+[2026-10-12 18:26:15,504] 72 INFO - Train Dataframe Head: 
+   gender race_ethnicity parental_level_of_education         lunch test_preparation_course  math_score  reading_score  writing_score
+0  female        group D             master's degree      standard                    none          62             70             75
+1  female        group C           bachelor's degree  free/reduced               completed          66             83             83
+2  female        group D                some college  free/reduced                    none          79             89             86
+3    male        group C             master's degree  free/reduced                    none          61             67             66
+4    male        group E                 high school      standard                    none          73             64             57
+[2026-10-12 18:26:15,506] 73 INFO - Test Dataframe Head: 
+   gender race_ethnicity parental_level_of_education         lunch test_preparation_course  math_score  reading_score  writing_score
+0  female        group C          associate's degree      standard                    none          91             86             84
+1  female        group B                some college  free/reduced               completed          53             66             73
+2    male        group D           bachelor's degree      standard                    none          80             73             72
+3    male        group C                some college  free/reduced                    none          74             77             73
+4    male        group E                some college      standard               completed          84             83             78
+[2026-10-12 18:26:15,506] 75 INFO - Obtaining preprocessing object
+[2026-10-12 18:26:15,507] 51 INFO - Categorical columns: ['gender', 'race_ethnicity', 'parental_level_of_education', 'lunch', 'test_preparation_course']
+[2026-10-12 18:26:15,507] 52 INFO - Numerical columns: ['reading_score', 'writing_score']
+[2026-10-12 18:26:15,507] 53 INFO - Numerical columns standard scaling completed
+[2026-10-12 18:26:15,507] 54 INFO - Categorical columns encoding completed
+[2026-10-12 18:26:15,508] 87 INFO - Applying preprocessing object on training dataframe and testing dataframe.
+[2026-10-12 18:26:15,580] 97 INFO - Saved preprocessing object.
