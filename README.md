@@ -1,1 +1,1 @@
-# End to end ML project (practice)
+# End to end ML project 
